@@ -1,7 +1,8 @@
 import { combineReducers } from "redux";
+import { themeReducer } from "./themeReducer";
 
 const reducers = combineReducers({
-  theme: () => "LIGHT",
+  theme: themeReducer,
 });
 
 export default reducers;

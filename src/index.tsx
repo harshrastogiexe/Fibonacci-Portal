@@ -7,10 +7,7 @@ import App from "./components/App/App";
 // import history from "./history";
 import reducer from "./Reducers";
 
-console.log(process.env);
-
 const composeEnhancers = (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-
 const store = createStore(reducer, composeEnhancers(applyMiddleware(thunk)));
 
 const Root = () => (
