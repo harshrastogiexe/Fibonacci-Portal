@@ -44,6 +44,6 @@
   }
 
   &__icon {
-    @include small_icon;
+    @include small_icon(LIGHT);
   }
 }

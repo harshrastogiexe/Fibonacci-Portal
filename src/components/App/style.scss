@@ -14,9 +14,16 @@ html {
 body {
   min-height: 100vh;
   overflow-x: hidden;
+  font-family: $primary-font;
+}
+
+.body {
   background-color: $background-light;
   color: $forground-light;
-  font-family: $primary-font;
+  &-dark {
+    background-color: $background-dark;
+    color: $forground-dark;
+  }
 }
 
 a {

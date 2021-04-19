@@ -14,7 +14,7 @@ const ThemeButton = ({ theme, updateTheme }: { theme: Theme; updateTheme: Dispat
   };
 
   const props: React.SVGAttributes<SVGElement> = {
-    className: "theme_icon",
+    className: `theme_icon theme_icon${isDark ? "theme_icon-dark" : ""}`,
     onClick: handelThemeChange,
   };
   return <>{isDark ? <Sun {...props} /> : <Moon {...props} />}</>;
