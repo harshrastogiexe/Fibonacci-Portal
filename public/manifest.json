@@ -1,0 +1,25 @@
+{
+  "short_name": "Fibonacci: A Learning Portal",
+  "name": "Fibonacci: A Learning Portal: By Harsh Rastogi",
+  "icons": [
+    {
+      "src": "sq-logo-192.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "sq-logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "sq-logo-192.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
