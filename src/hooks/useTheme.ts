@@ -9,7 +9,6 @@ const useTheme = (): [Theme, (theme: Theme) => void] => {
 
   const updateTheme = (newTheme: Theme) => {
     dispatch(setTheme(newTheme));
-    console.trace();
   };
 
   useEffect(() => {

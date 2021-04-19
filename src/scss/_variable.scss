@@ -5,3 +5,13 @@ $background-dark: #132d46;
 $forground-dark: #f9f9f9;
 
 $primary-font: "Poppins", sans-serif;
+
+// $light: (
+//   "background": #f9f9f9,
+//   "foreground": #212121,
+//   "icon": get_color("foreground"),
+// );
+
+// @function get_color($key) {
+//   @return map.get($light, $key);
+// }
