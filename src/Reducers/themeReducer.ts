@@ -1,17 +1,13 @@
+import { Theme, ThemeAction } from "../@types";
 import { getLocalStorage } from "../utils/localStorage";
 
-export type Theme = "DARK" | "LIGHT";
+const savedTheme = getLocalStorage<Theme>("THEME");
 
-interface ThemeAction {
-  type: "SET_THEME";
-  payload: Theme;
-}
+const initialValue = savedTheme ? savedTheme : "LIGHT";
 
-const item = getLocalStorage<Theme>("THEME");
+type ThemeReducer = (theme: Theme, action: ThemeAction) => Theme;
 
-const initialValue: Theme = item ? item : "LIGHT";
-
-const themeReducer = (state = initialValue, action: ThemeAction): Theme => {
+const themeReducer: ThemeReducer = (state = initialValue, action: ThemeAction): Theme => {
   switch (action.type) {
     case "SET_THEME":
       return action.payload;

@@ -1,9 +1,9 @@
 import { Dispatch } from "redux";
-import setTheme from "../../Actions/theme";
-import { Theme } from "../../Reducers/themeReducer";
 import { Sun, Moon } from "react-feather";
 
 import "./styles.scss";
+import { Theme } from "../../@types";
+import { setTheme } from "../../actions";
 
 const ThemeButton = ({ theme, updateTheme }: { theme: Theme; updateTheme: Dispatch<any> }) => {
   const isDark = theme === "DARK" ? true : false;

@@ -1,0 +1,10 @@
+@import "../../scss/utils";
+@import "../../scss/variable";
+
+.header {
+  @include fluid();
+
+  padding: 2rem 1.5rem;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}

@@ -1,13 +1,10 @@
-import { Dispatch } from "react";
-import { Theme } from "../Reducers/themeReducer";
+import { Dispatch } from "redux";
+import { Theme, ThemeAction } from "../@types";
 import { setLocalStorage } from "../utils/localStorage";
 
-interface Action<T, P> {
-  type: T;
-  payload: P;
-}
+type SetThemeHander = (theme: Theme) => (dispatch: Dispatch<ThemeAction>) => void;
 
-const setTheme = (theme: Theme) => (dispatch: Dispatch<Action<"SET_THEME", Theme>>) => {
+const setTheme: SetThemeHander = (theme) => (dispatch) => {
   dispatch({
     type: "SET_THEME",
     payload: theme,
@@ -16,4 +13,4 @@ const setTheme = (theme: Theme) => (dispatch: Dispatch<Action<"SET_THEME", Theme
   setLocalStorage<Theme>("THEME", theme);
 };
 
-export default setTheme;
+export { setTheme };

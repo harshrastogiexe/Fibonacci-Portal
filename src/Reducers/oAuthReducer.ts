@@ -1,15 +1,11 @@
-type GoogleAuthInstance = typeof gapi.auth2.GoogleAuth;
+import { AuthAction, GoogleAuthInstance } from "../@types";
 
-type ActionTypes = "oAuth/SETUP";
+type OAuthReducer = (
+  auth2: GoogleAuthInstance | null,
+  action: AuthAction
+) => GoogleAuthInstance | null;
 
-export interface AuthAction {
-  type: ActionTypes;
-  payload: ActionTypes extends "oAuth/SETUP" ? GoogleAuthInstance : null;
-}
-
-const initialState: GoogleAuthInstance | null = null;
-
-const oAuthReducer = (state = initialState, action: AuthAction) => {
+const oAuthReducer: OAuthReducer = (state = null, action: AuthAction) => {
   switch (action.type) {
     case "oAuth/SETUP":
       return action.payload;

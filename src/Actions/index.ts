@@ -1,4 +1,5 @@
-import { setGoogleUserData, removeGoogleUser } from "./googleUser";
+import { setGoogleUserData } from "./googleUser";
 import { setupOAuth } from "./oAuth";
+import { setTheme } from "./theme";
 
-export { setupOAuth, setGoogleUserData, removeGoogleUser };
+export { setGoogleUserData, setupOAuth, setTheme };

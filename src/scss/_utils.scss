@@ -5,6 +5,12 @@
   padding: 0 0.5rem;
 }
 
+@mixin button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
 @mixin small_icon($theme) {
   $background: $forground-light;
   $opacity: 0.1;

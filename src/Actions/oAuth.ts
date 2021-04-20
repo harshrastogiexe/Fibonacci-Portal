@@ -1,17 +1,15 @@
 import { Dispatch } from "redux";
-import { AuthAction } from "../Reducers/oAuthReducer";
-import { LoginAction } from "../Reducers/logInReducer";
-import { setGoogleUserData } from ".";
+import { AuthAction, LoginAction } from "../@types";
 
-// type GoogleAuthInstance = typeof gapi.auth2.GoogleAuth;
+type DispatchHandler = Dispatch<AuthAction | LoginAction>;
+type SetupOAuthHandler = (clientId: string) => (dispatch: DispatchHandler) => void;
+type LoadAuth2Handler = (clientId: string, dispatch: DispatchHandler) => void;
 
-const setupOAuth = (clientId: string) => async (
-  dispatch: Dispatch<AuthAction | LoginAction | any>
-) => {
+const setupOAuth: SetupOAuthHandler = (clientId) => async (dispatch) => {
   window.gapi.load("client:auth2", () => loadOAuth(clientId, dispatch));
 };
 
-const loadOAuth = async (clientId: string, dispatch: Dispatch<AuthAction | LoginAction> | any) => {
+const loadOAuth: LoadAuth2Handler = async (clientId, dispatch) => {
   const config = {
     clientId,
     scope: "https://www.googleapis.com/auth/userinfo.email",
@@ -19,11 +17,11 @@ const loadOAuth = async (clientId: string, dispatch: Dispatch<AuthAction | Login
 
   await window.gapi.client.init(config);
   const auth2 = window.gapi.auth2.getAuthInstance();
-  const loggedInStatus = auth2.isSignedIn.get();
 
-  dispatch({ type: "oAuth/SETUP", payload: auth2 as any });
-  dispatch({ type: "SET_LOGIN_STATUS", payload: loggedInStatus });
-  dispatch(setGoogleUserData());
+  dispatch({
+    type: "oAuth/SETUP",
+    payload: auth2 as any,
+  });
 };
 
 export { setupOAuth };

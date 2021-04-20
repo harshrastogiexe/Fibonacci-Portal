@@ -1,16 +1,10 @@
 import { Dispatch } from "redux";
-import { UserAction } from "../Reducers/userReducer";
+import { UserAction } from "../@types";
 
-const setGoogleUserData = () => (
-  dispatch: Dispatch<UserAction>,
-  getStore: () => { auth2: gapi.auth2.GoogleAuth | null }
-) => {
-  const auth2 = getStore().auth2;
-  if (!auth2) {
-    console.error("auth2 instance not found");
-    return;
-  }
-  const userData = auth2!.currentUser.get().getBasicProfile();
+type UserActionHandler = () => (dispatch: Dispatch<UserAction>) => void;
+
+const setGoogleUserData: UserActionHandler = () => (dispatch) => {
+  const userData = window.gapi.auth2.getAuthInstance().currentUser.get().getBasicProfile();
 
   const user = {
     email: userData?.getEmail(),
@@ -24,7 +18,7 @@ const setGoogleUserData = () => (
   dispatch({ type: "@USER/ADD", payload: user });
 };
 
-const removeGoogleUser = () => (dispatch: Dispatch<UserAction>) => {
+const removeGoogleUser: UserActionHandler = () => (dispatch) => {
   dispatch({ type: "@USER/REMOVE" });
 };
 

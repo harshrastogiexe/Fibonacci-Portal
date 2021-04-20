@@ -1,22 +1,8 @@
-interface User {
-  name: string | undefined;
-  email: string | undefined;
-  id: string | undefined;
-  imageURL: string | undefined;
-  givenName: string | undefined;
-  familyName: string | undefined;
-}
+import { User, UserAction } from "../@types";
 
-type UserActionTypes = "@USER/ADD" | "@USER/REMOVE";
+type UserReducer = (user: User | null, action: UserAction) => User | null;
 
-export interface UserAction {
-  type: UserActionTypes;
-  payload?: User | null;
-}
-
-const initialState: User | null = null;
-
-const userReducer = (state = initialState, action: UserAction) => {
+const userReducer: UserReducer = (state = null, action) => {
   switch (action.type) {
     case "@USER/ADD":
       return { ...action.payload };

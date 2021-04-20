@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
 import loginReducer from "./logInReducer";
-import oAuthReducer from "./oAuthReducer";
+import oAuthReducer from "././oAuthReducer";
 import { themeReducer } from "./themeReducer";
 import userReducer from "./userReducer";
 

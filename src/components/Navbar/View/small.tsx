@@ -5,7 +5,7 @@ import logo from "../../../assets/icons/logo.png";
 
 import Item from "../Item";
 import ThemeButton from "../../ThemeButton/ThemeButton";
-import { Theme } from "../../../Reducers/themeReducer";
+import { Theme } from "../../../@types";
 
 interface Props {
   theme: Theme;

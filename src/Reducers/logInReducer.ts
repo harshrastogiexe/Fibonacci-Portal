@@ -1,13 +1,8 @@
-const loggedIn: boolean | null = null;
+import { LoginAction } from "../@types";
 
-type LoginType = "LOGIN" | "LOGOUT" | "SET_LOGIN_STATUS";
+type LoginReducer = (state: boolean | null, action: LoginAction) => boolean | null;
 
-export interface LoginAction {
-  type: LoginType;
-  payload: boolean;
-}
-
-const loginReducer = (state = loggedIn, action: LoginAction) => {
+const loginReducer: LoginReducer = (loggedIn = null, action) => {
   switch (action.type) {
     case "SET_LOGIN_STATUS":
       return action.payload;
@@ -16,7 +11,7 @@ const loginReducer = (state = loggedIn, action: LoginAction) => {
     case "LOGOUT":
       return action.payload;
     default:
-      return state;
+      return loggedIn;
   }
 };
 

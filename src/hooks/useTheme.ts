@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import setTheme from "../Actions/theme";
-import { Theme } from "../Reducers/themeReducer";
+import { Theme } from "../@types";
+import { setTheme } from "../actions";
 
 const useTheme = (): [Theme, (theme: Theme) => void] => {
   const theme = useSelector((state: { theme: Theme }) => state.theme);
