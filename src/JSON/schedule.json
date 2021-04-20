@@ -1,0 +1,397 @@
+{
+  "group": 62,
+  "branch": "CS",
+  "name": "Computer Science",
+  "session": "2020-21",
+  "semester": 6,
+  "day": {
+    "sun": null,
+    "mon": [
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "Q",
+            "code": "QUIZ"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KCS601"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KOE064"
+          },
+          {
+            "type": "L",
+            "code": "KOE066"
+          },
+          {
+            "type": "L",
+            "code": "KOE068"
+          },
+          {
+            "type": "L",
+            "code": "KOE069"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KNC601"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "P",
+            "code": "SS2"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "P",
+            "code": "AR2"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "T",
+            "code": "KCS061"
+          },
+          {
+            "type": "T",
+            "code": "KCS062"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "T",
+            "code": "KCS064"
+          }
+        ]
+      }
+    ],
+    "tue": [
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KCS602"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KCS061"
+          },
+          {
+            "type": "L",
+            "code": "KCS061"
+          },
+          {
+            "type": "L",
+            "code": "KCS061"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KCS603"
+          }
+        ]
+      },
+      {
+        "active": false
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "P",
+            "code": "KCS653"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "P",
+            "code": "KCS653"
+          }
+        ]
+      },
+      {
+        "active": false
+      },
+      {
+        "active": false
+      }
+    ],
+    "wed": [
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KCS601"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KCS602"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KOE064"
+          },
+          {
+            "type": "L",
+            "code": "KOE066"
+          },
+          {
+            "type": "L",
+            "code": "KOE068"
+          },
+          {
+            "type": "L",
+            "code": "KOE069"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KNC601"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KCS061"
+          },
+          {
+            "type": "L",
+            "code": "KCS061"
+          },
+          {
+            "type": "L",
+            "code": "KCS061"
+          }
+        ]
+      },
+      {
+        "active": false
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "P",
+            "code": "KCS652"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "P",
+            "code": "KCS652"
+          }
+        ]
+      }
+    ],
+    "thur": [
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KCS603"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KCS601"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KCS061"
+          },
+          {
+            "type": "L",
+            "code": "KCS061"
+          },
+          {
+            "type": "L",
+            "code": "KCS061"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "T",
+            "code": "KCS602"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "P",
+            "code": "KCS651"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "P",
+            "code": "KCS651"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "T",
+            "code": "KCS601"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "T",
+            "code": "KCS603"
+          }
+        ]
+      }
+    ],
+    "fri": [
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "Q",
+            "code": "QUIZ"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KCS602"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KOE064"
+          },
+          {
+            "type": "L",
+            "code": "KOE066"
+          },
+          {
+            "type": "L",
+            "code": "KOE068"
+          },
+          {
+            "type": "L",
+            "code": "KOE069"
+          }
+        ]
+      },
+      {
+        "active": true,
+        "subject": [
+          {
+            "type": "L",
+            "code": "KCS603"
+          }
+        ]
+      },
+      {
+        "active": false
+      },
+      {
+        "active": false
+      },
+      {
+        "active": false
+      },
+      {
+        "active": false
+      }
+    ],
+    "sat": null
+  }
+}

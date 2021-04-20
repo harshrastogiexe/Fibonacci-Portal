@@ -10,14 +10,16 @@ const useTheme = (): [Theme, (theme: Theme) => void] => {
   const updateTheme = (newTheme: Theme) => {
     dispatch(setTheme(newTheme));
   };
-
+  // #132d46
   useEffect(() => {
     //TODO This function to be removed
     if (theme === "DARK") {
       document.body.className = "body body-dark";
+      (document.querySelector("meta#theme-color") as any).content = "#132d46";
       return;
     } else {
       document.body.className = "body";
+      (document.querySelector("meta#theme-color") as any).content = "";
     }
   }, [theme]);
 

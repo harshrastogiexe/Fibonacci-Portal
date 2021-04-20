@@ -1,0 +1,194 @@
+{
+  "KCS601": {
+    "code": "KCS601",
+    "name": "Software Engineering",
+    "faculty": {
+      "name": "Dr. Nidhi Saxena",
+      "zoom": {
+        "id": "92838634943",
+        "passcode": "2RNHmc",
+        "link": "https://zoom.us/j/92838634943?pwd=UzI0RUlZOEI4SjByMFMrc1dMb0RIUT09"
+      }
+    }
+  },
+  "KCS602": {
+    "code": "KCS602",
+    "name": "Web Technology",
+    "faculty": {
+      "name": "Er. Dishant Agrawal",
+      "zoom": {
+        "id": "99406521536",
+        "passcode": "Lya7ES",
+        "link": "https://zoom.us/j/99406521395?pwd=c1c4dFBMSkhrWmNuNzE1N3hMTTlUQT09"
+      }
+    }
+  },
+  "KCS653": {
+    "code": "KCS653",
+    "name": "Computer Networks Lab",
+    "faculty": {
+      "name": "Er. Saurabh Jain",
+      "zoom": {
+        "id": "6752005635",
+        "passcode": "1234",
+        "link": "https://us04web.zoom.us/j/6752005635?pwd=NVkrSkF0RWNaOWxVWm9HTHIrNmlIQT09"
+      }
+    }
+  },
+  "KCS603": {
+    "code": "KCS603",
+    "name": "Computer Networks",
+    "faculty": {
+      "name": "Er. Priyanka",
+      "zoom": {
+        "id": "2534821536",
+        "passcode": "12345",
+        "link": "https://zoom.us/j/2534821536?pwd=U0xoVmd4QjI0U2V3QlhZR3NtNS9aZz09"
+      }
+    }
+  },
+  "KNC601": {
+    "code": "KNC601",
+    "name": "Constitution of India",
+    "faculty": {
+      "name": "Ms. Snigdha",
+      "zoom": {
+        "id": "2534821536",
+        "passcode": "12345",
+        "link": null
+      }
+    }
+  },
+  "KCS061": {
+    "code": "KCS061",
+    "name": "Big Data",
+    "faculty": {
+      "name": "Er. Akansha Singh",
+      "zoom": {
+        "id": "5687381032",
+        "passcode": "1234",
+        "link": "https://zoom.us/j/5687381032?pwd=V0E4aXlkeXNBei9LTmR0S00vdnhxdz09"
+      }
+    }
+  },
+  "KCS062": {
+    "code": "KCS062",
+    "name": "Image Processing",
+    "faculty": {
+      "name": "Er. Sudha Singh",
+      "zoom": {
+        "id": "2575107643",
+        "passcode": "1111",
+        "link": "https://zoom.us/j/2575107643?pwd=V3lzQ1R1aFFaMDlqMHJZbXVwSG0rdz09"
+      }
+    }
+  },
+  "KCS063": {
+    "code": "KCS063",
+    "name": "Data Compression",
+    "faculty": {
+      "name": "Er. Sapna Pal",
+      "zoom": {
+        "id": "74194207679",
+        "passcode": "1234",
+        "link": null
+      }
+    }
+  },
+  "KCS652": {
+    "code": "KCS652",
+    "name": "Web Technology Lab",
+    "faculty": {
+      "name": "Er. Preeti Naval",
+      "zoom": {
+        "id": "2471794873",
+        "passcode": "1234",
+        "link": "https://zoom.us/j/2471794873?pwd=cnk1elBXYUI3ZzdweGJmMEpxQzU1UT09"
+      }
+    }
+  },
+  "KCS651": {
+    "code": "KCS651",
+    "name": "Software Engineering Lab",
+    "faculty": {
+      "name": "Er. Preeti Naval",
+      "zoom": {
+        "id": "2471794873",
+        "passcode": "1234",
+        "link": "https://zoom.us/j/2471794873?pwd=cnk1elBXYUI3ZzdweGJmMEpxQzU1UT09"
+      }
+    }
+  },
+  "KOE064": {
+    "code": "KOE064",
+    "name": "Object Oriented Programming",
+    "faculty": {
+      "name": "Er. Preeti Naval",
+      "zoom": {
+        "id": "2471794873",
+        "passcode": "1234",
+        "link": "https://zoom.us/j/2471794873?pwd=cnk1elBXYUI3ZzdweGJmMEpxQzU1UT09"
+      }
+    }
+  },
+  "KOE066": {
+    "code": "KOE066",
+    "name": "GIS & REMOTE SENSING",
+    "faculty": {
+      "name": "Er. Kundan Kulbhushan",
+      "zoom": {
+        "id": "4027809720",
+        "passcode": "4jx62Z",
+        "link": "https://us05web.zoom.us/j/4027809720?pwd=S3phaXpPWmkvaHZzdTl5VDBDeTIzUT09"
+      }
+    }
+  },
+  "KOE068": {
+    "code": "KOE068",
+    "name": "Software Project Management System",
+    "faculty": {
+      "name": null,
+      "zoom": {
+        "id": null,
+        "passcode": null,
+        "link": null
+      }
+    }
+  },
+  "KOE-069": {
+    "code": "KOE068",
+    "name": "Auathbchaaif (Human Values)",
+    "faculty": {
+      "name": "Mr. Jayant Mishra",
+      "zoom": {
+        "id": null,
+        "passcode": null,
+        "link": null
+      }
+    }
+  },
+  "SS2": {
+    "code": "SS2",
+    "name": "Soft Skill",
+    "faculty": {
+      "name": "Arpita Srivastava",
+      "zoom": {
+        "id": "88513766471",
+        "passcode": "Vpc8JC",
+        "link": "https://us05web.zoom.us/j/88513766471?pwd=VDVzK25hVWdLNnpFcXUxWHdRSXZnQT09"
+      }
+    }
+  },
+  "AA2": {
+    "code": "AA2",
+    "name": "Aptitude & Reasoning ",
+    "faculty": {
+      "name": null,
+      "zoom": {
+        "id": null,
+        "passcode": null,
+        "link": null
+      }
+    }
+  }
+}

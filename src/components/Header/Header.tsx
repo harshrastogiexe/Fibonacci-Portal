@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { LoginAction } from "../../@types";
 import Store from "../../@types/store";
 import { setGoogleUserData } from "../../actions";
+import GoogleSignUpButton from "../GoogleSignUpButton/GoogleSignUpButton";
 import GreetUser from "../GreetUser/GreetUser";
 
 import "./style.scss";
@@ -39,8 +40,10 @@ const Header = () => {
 
   return (
     <section className='header'>
-      {isLoggedIn && <GreetUser firstName={userFirstName} />}
-      {!isLoggedIn && <h1>Sign Up</h1>}
+      {/* {isLoggedIn && <GreetUser firstName={userFirstName} />} */}
+      {/* {!isLoggedIn && <GoogleSignUpButton />} */}
+      {/* <GoogleSignUpButton /> */}
+      <GreetUser firstName={"Vinayak"} />
     </section>
   );
 };

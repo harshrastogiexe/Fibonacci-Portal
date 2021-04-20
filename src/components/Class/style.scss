@@ -1,0 +1,14 @@
+@import "../../scss/utils";
+@import "../../scss/variable";
+
+.class {
+  @include fluid();
+  color: $forground-light;
+
+  &__wrapper {
+    background-color: #e8e8e8;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+  }
+}

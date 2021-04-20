@@ -1,0 +1,51 @@
+@import "../../scss/utils";
+@import "../../scss/variable";
+
+.toogle_menu {
+  background-color: #fff3f3;
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  // justify-content: space-around;
+  // row-gap: 0.5rem;
+
+  overflow: hidden;
+}
+
+.toogle_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__text {
+    color: #85838a;
+    cursor: pointer;
+    position: relative;
+    // opacity: 0;
+    font-weight: 500;
+    transition: transform 100ms ease-out;
+
+    &:hover {
+      transform: translateY(-3px);
+      // transition: transform 100ms ease-out;
+    }
+
+    &-active {
+      font-weight: 600;
+      color: #676262;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 2px;
+        width: 100%;
+        height: 2px;
+        border-radius: 10px;
+        background-color: #fbd983;
+      }
+    }
+  }
+}

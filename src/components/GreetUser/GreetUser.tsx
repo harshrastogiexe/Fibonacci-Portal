@@ -12,7 +12,6 @@ const GreetUser = ({ firstName }: Props) => {
       opacity: 1,
       transform: "scale(1)",
     },
-    delay: 200,
   });
 
   return (

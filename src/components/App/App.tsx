@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { Route, Switch } from "react-router-dom";
 import { setupOAuth } from "../../actions";
+import Class from "../Class/Class";
 import Header from "../Header/Header";
 import Navbar from "../Navbar/Navbar";
 
@@ -23,6 +24,7 @@ const App = () => {
       <Switch>
         <Route path='/'>
           <Header />
+          <Class />
         </Route>
       </Switch>
     </>
