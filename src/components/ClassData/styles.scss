@@ -7,11 +7,17 @@
   grid-template-rows: 4rem;
   grid-column-gap: 1rem;
   column-gap: 1rem;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem;
   padding: 0.5rem;
+  transition: box-shadow 400ms ease-in;
+
+  &:hover {
+    box-shadow: 0px 12px 11px -7px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 200ms ease-out;
+  }
 
   & + .class_data {
-    margin-top: 0.5rem;
+    margin-top: 0.7rem;
   }
 
   &__logo {

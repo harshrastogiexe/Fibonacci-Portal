@@ -43,7 +43,7 @@ const Header = () => {
       {/* {isLoggedIn && <GreetUser firstName={userFirstName} />} */}
       {/* {!isLoggedIn && <GoogleSignUpButton />} */}
       {/* <GoogleSignUpButton /> */}
-      <GreetUser firstName={"Vinayak"} />
+      <GreetUser firstName={"Harsh"} />
     </section>
   );
 };

@@ -1,3 +1,4 @@
+import { MouseEventHandler } from "react";
 import { Copy } from "react-feather";
 import { Subject } from "../../@types/subject";
 import "./styles.scss";
@@ -20,8 +21,9 @@ const chooseColor = () => {
 const randomColor = chooseColor();
 
 const ClassData = (props: { subject: Subject }) => {
-  const color = randomColor();
   const { code, name, faculty } = props.subject;
+  const color = randomColor();
+
   return (
     <div className='class_data'>
       <div className='class_data__logo' style={{ backgroundColor: color }}>
