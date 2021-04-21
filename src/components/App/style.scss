@@ -20,6 +20,7 @@ body {
 .body {
   background-color: $background-light;
   color: $forground-light;
+  position: relative;
   &-dark {
     background-color: $background-dark;
     color: $forground-dark;

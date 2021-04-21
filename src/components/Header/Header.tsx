@@ -40,10 +40,9 @@ const Header = () => {
 
   return (
     <section className='header'>
-      {/* {isLoggedIn && <GreetUser firstName={userFirstName} />} */}
-      {/* {!isLoggedIn && <GoogleSignUpButton />} */}
+      {isLoggedIn && <GreetUser firstName={userFirstName} />}
+      {!isLoggedIn && <GoogleSignUpButton />}
       {/* <GoogleSignUpButton /> */}
-      <GreetUser firstName={"Harsh"} />
     </section>
   );
 };

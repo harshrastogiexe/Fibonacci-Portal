@@ -7,9 +7,9 @@ const Navbar = () => {
   const [theme, setTheme] = useTheme();
 
   return (
-    <nav className={`navbar ${theme === "LIGHT" ? "" : "navbar-dark"}`}>
-      <NavbarMobile theme={theme} setTheme={setTheme} />
-    </nav>
+    // <nav className={`navbar ${theme === "LIGHT" ? "" : "navbar-dark"}`}>
+    <NavbarMobile theme={theme} setTheme={setTheme} />
+    // </nav>
   );
 };
 
